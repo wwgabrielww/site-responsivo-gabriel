@@ -1,0 +1,145 @@
+
+:root  {
+    --cor-de-fundo: rgba(255, 255, 255, 0.767);
+    --cor-das-letras:rgb(0, 0, 0);
+    --cor-de-destaque:purple;
+    --cor-do-link:rgb(0, 0, 0);
+    --cor-de-destaque2: (yellow);
+    
+    
+    
+    
+    }
+    
+    
+    
+    body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-das-letras);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    
+    
+    }
+    
+    
+    header {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    }
+    
+    #titulo {
+        flex-direction: column;
+        line-height: 20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    }
+    li{
+    display: inline-block;
+    margin: 20px;
+    
+    }
+    a {
+    color: var(--cor-do-link);
+    
+    
+    }
+    
+    a :hover {
+    color: var(--cor-de-destaque);
+    transition: 0.05s all;
+    
+    }
+    
+    #inscreva-se-bnt {
+        border: 2px solid var(--cor-de-destaque);
+        padding-inline-start: 10px;
+        border-radius: 15px;
+    }
+    
+    #inscreva-se-bnt:hover {
+        background-color: var(--cor-de-destaque);
+        color:var(--cor-das-letras)
+    
+    
+    }
+    
+    h1 {
+    font-weight: 200;
+    
+    }
+    
+    main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    }
+    
+    h2{
+        font-size:  100px;
+        line-height: 100px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+    }
+    span  {
+    color: var(--cor-de-destaque)
+    
+    }
+    
+    p{
+    line-height: 20px;
+    max-width: 7000px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    div{
+        text-align: center;
+        
+        
+    }
+    img{
+        height: 400px;
+        width:400px;
+        text-align: right;
+        top: 0%;
+        
+       
+    }
+    html.body{
+    height: 100%;
+    overflow: hidden;
+    
+    }
+    .circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--cor-de-destaque);
+    clip-path: circle(30% at bottom right);
+    
+    
+    }
+    
+    ul{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+    }
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
